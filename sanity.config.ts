@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'mxlarge',
 
-  projectId: '6dtfjviw',
+  projectId: '8oyzogbt',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
