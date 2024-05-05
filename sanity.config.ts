@@ -8,11 +8,11 @@ import {RobotIcon, RocketIcon} from '@sanity/icons'
 export default defineConfig([
   {
     projectId: '8oyzogbt',
-    name: 'Development',
-    title: 'Development',
-    icon: RobotIcon,
-    basePath: '/development',
-    dataset: 'stub',
+    name: 'Production',
+    title: 'Production',
+    icon: RocketIcon,
+    basePath: '/production',
+    dataset: 'production',
     plugins: [structureTool(), visionTool(), media()],
 
     schema: {
@@ -21,11 +21,11 @@ export default defineConfig([
   },
   {
     projectId: '8oyzogbt',
-    name: 'Production',
-    title: 'Production',
-    icon: RocketIcon,
-    basePath: '/production',
-    dataset: 'production',
+    name: 'Development',
+    title: 'Development',
+    icon: RobotIcon,
+    basePath: '/development',
+    dataset: 'stub',
     plugins: [structureTool(), visionTool(), media()],
 
     schema: {
