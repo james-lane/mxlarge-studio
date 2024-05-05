@@ -32,6 +32,7 @@ export default defineType({
           {title: 'Leaderboard', value: 'leaderboard'},
           {title: 'Medium Rectangle', value: 'medium-rectangle'},
           {title: 'Sidebar', value: 'sidebar'},
+          {title: 'Wallpaper', value: 'wallpaper'},
         ],
       },
     }),
