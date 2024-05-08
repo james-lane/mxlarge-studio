@@ -11,16 +11,19 @@ export default defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
+      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'url',
       title: 'URL',
       type: 'url',
+      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'image',
       title: 'Image',
       type: 'image',
+      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'advertCategory',
@@ -35,6 +38,7 @@ export default defineType({
           {title: 'Wallpaper', value: 'wallpaper'},
         ],
       },
+      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'publishedAt',
